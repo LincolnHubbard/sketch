@@ -4,7 +4,7 @@ body{
     align-items: center;
     color: #00A676;
     background-color: #e0d7c0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #buttons{
@@ -20,6 +20,7 @@ button{
     border-radius: 25px;
     width: 100px;
     height: 50px;
+    border: none;
 }
 
 #grid{
