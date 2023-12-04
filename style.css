@@ -2,15 +2,34 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #00A676;
+    background-color: #e0d7c0;
+    font-family: 'Inter', sans-serif;
+}
+
+#buttons{
+    margin: 20px;
+    padding: 20px;
+    background-color: #A76D60;
+    border-radius: 25px;
+}
+
+button{
+    color: #A76D60;
+    background-color: #601700;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
 }
 
 #grid{
     display: flex;
-    /* border: 10px solid red; */
+    border: 10px solid #000000;
     flex-wrap: wrap;
-    width: 464px;
+    width: 1000px;
+    background-color: white;
 }
 
-.square:hover{
+/* .square:hover{
     background-color: black;
-}
+} */
