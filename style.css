@@ -1,4 +1,16 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid{
+    display: flex;
+    /* border: 10px solid red; */
+    flex-wrap: wrap;
+    width: 464px;
+}
+
+.square:hover{
+    background-color: black;
 }
